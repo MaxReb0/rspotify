@@ -25,6 +25,7 @@ pub struct FullArtist {
     )]
     #[serde(default)]
     pub followers: Followers,
+    #[serde(default)]
     pub genres: Vec<String>,
     pub href: String,
     pub id: ArtistId<'static>,
